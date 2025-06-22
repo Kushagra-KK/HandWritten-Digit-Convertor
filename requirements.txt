@@ -1,4 +1,6 @@
+# requirements.txt
+--upgrade pip
 streamlit==1.29.0
-tensorflow-cpu==2.12.0  # Lighter CPU-only version
+tensorflow-cpu==2.12.0
 numpy==1.24.3
 matplotlib==3.7.1
