@@ -1,1 +1,2 @@
-python-3.10
+python3.12 -m venv /home/adminuser/venv_tf
+source /home/adminuser/venv_tf/bin/activate
