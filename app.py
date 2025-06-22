@@ -10,7 +10,7 @@ Original file is located at
 # First mount Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
-!pip install streamlit tensorflow numpy matplotlib pyngrok
+uv !pip install streamlit tensorflow numpy matplotlib pyngrok
 import streamlit as st
 import tensorflow as tf
 import numpy as np
