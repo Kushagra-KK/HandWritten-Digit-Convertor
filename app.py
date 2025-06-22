@@ -10,6 +10,9 @@ Original file is located at
 # First mount Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
+python3 -m pip install tensorflow[and-cuda]
+# Verify the installation:
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 !pip install streamlit tensorflow numpy matplotlib pyngrok
 import streamlit as st
 import tensorflow as tf
