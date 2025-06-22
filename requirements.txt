@@ -1,5 +1,5 @@
 # requirements.txt
 streamlit==1.29.0
-https://files.pythonhosted.org/packages/5d/3a/9a5fcaa8e6dde8d7b8e98f8f5c2a8b9f8c8e3b5d5d5d5d5d5d5d5d5d5d5d/tensorflow_cpu-2.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+tensorflow-cpu==2.12.0
 numpy==1.24.3
 matplotlib==3.7.1
